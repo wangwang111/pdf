@@ -9,14 +9,17 @@
         <module name="ShanZhanJvm" />
         <module name="shanzhanjvm" />
         <module name="springcloudnginxgaobingfa" />
+        <module name="shejimoshi" />
         <module name="SheJiMoShi" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ShanZhanJvm" options="-parameters" />
       <module name="SheJiMoShi" options="-parameters" />
       <module name="shanzhanjvm" options="-parameters" />
+      <module name="shejimoshi" options="-parameters" />
       <module name="springcloudnginxgaobingfa" options="-parameters" />
     </option>
   </component>
